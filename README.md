@@ -1,12 +1,8 @@
-2do Parcial - Parte Practica
-Que se solicita:
-
-El codigo tiene 10 errores. Recae en usted analizar que es un error dentro del codigo.
-Los Alumnos tendran que forkear este repo como propio, hacer un issue desde Github con Comentarios refiriendo en que linea esta el error, y como se debe solucionar.
-La respuesta sera con el link a ese Fork, y adentro deben estar los issues. Los profesores tenemos que poder ingresar al mismo. Recae en los alumnos asegurarse de que los profesores puedan ingresar.
-Tambien pueden editar el Archivo Readme y poner los resultados dentro de sus propios forks.
-https://github.com/ExBattou/SimpsonsApp
-
+Nombre: Jonathan
+Apellido: Tola
+Legajo: 1079791
+Link:
+https://github.com/cuervojona/SimpsonsApp
 
 Issues:
 
@@ -45,3 +41,7 @@ Problema: el selector de episodios está hardcodeado con 1..25(línea 94) y depe
 Solución: construir el selector a partir de datos reales y no de un rango fijo.
 
 6) 
+Archivo: MainScreen.kt
+Líneas: 50-53
+Problema: el Composable dispara una actualización del ViewModel (refreshSeasons) según el estado de Paging.
+Solución: mover esa lógica al ViewModel.
